@@ -12,5 +12,5 @@ contract People {
     Person public person0 = Person("Alice", 25);
 
     // Récupération
-    Person[0].name; // Doit me renvoyer "Alice"
+    //Person[0].name; // Doit me renvoyer "Alice"
 }
