@@ -3,6 +3,6 @@
 
     contract Whitelist {
         mapping (address => bool) whitelistAddress;
-
+        // je déclare un événement pour notifier l'ajout d'une adresse à la liste blanche
         event Authorized(address _address);
     }
